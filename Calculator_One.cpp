@@ -71,7 +71,12 @@ double sqrt(double a)
 
 int main()
 {
-	float a = 30., b = 6.;
+	double a = 30., b = 6.;
+	
+	double a, b;
+	printf_s("\n a = "); scanf_s("%lf", &a);
+	printf_s("\n b = "); scanf_s("%lf", &b);
+	
 	printf_s("\n a =%f", a);
 	printf_s("\n b =%f", b);
 	printf_s("\n a + b =%f", summa(a, b));
